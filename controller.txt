@@ -1,0 +1,40 @@
+2023-01-30T00:07:11.261Z INFO Ensure step 4 jar file s3://sanchana/bigdata/hw1/WordCountJDK8.jar
+2023-01-30T00:07:12.032Z INFO StepRunner: Created Runner for step 4
+INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-3DZC85T55KE71/WordCountJDK8.jar s3://sanchana/bigdata/hw1/input/hw1_input s3://sanchana/bigdata/hw1/output'
+INFO Environment:
+  PATH=/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/opt/aws/puppet/bin/
+  SECURITY_PROPERTIES=/emr/instance-controller/lib/security.properties
+  HISTCONTROL=ignoredups
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-west-2
+  LANG=en_US.UTF-8
+  MAIL=/var/spool/mail/hadoop
+  LOGNAME=hadoop
+  PWD=/
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-3DZC85T55KE71/tmp
+  _=/etc/alternatives/jre/bin/java
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  SHELL=/bin/bash
+  QTINC=/usr/lib64/qt-3.3/include
+  USER=hadoop
+  HADOOP_LOGFILE=syslog
+  HOSTNAME=ip-172-31-0-165
+  QTDIR=/usr/lib64/qt-3.3
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-3DZC85T55KE71
+  EMR_STEP_ID=s-3DZC85T55KE71
+  QTLIB=/usr/lib64/qt-3.3/lib
+  HOME=/home/hadoop
+  SHLVL=1
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-3DZC85T55KE71/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-3DZC85T55KE71/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-3DZC85T55KE71
+INFO ProcessRunner started child process 1413
+2023-01-30T00:07:12.035Z INFO HadoopJarStepRunner.Runner: startRun() called for s-3DZC85T55KE71 Child Pid: 1413
+INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-3DZC85T5...
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-3DZC85T5...
+INFO total process run time: 188 seconds
+2023-01-30T00:10:20.293Z INFO Step created jobs: job_1675032893813_0001
+2023-01-30T00:10:20.293Z INFO Step succeeded with exitCode 0 and took 188 seconds
